@@ -1,0 +1,5 @@
+string = open("in", 'r').read()
+n,m = string.split(" ")
+file = open("out2", 'w')
+file.write(str(int(n) + int(m)))
+file.close()
